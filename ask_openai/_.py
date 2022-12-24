@@ -18,8 +18,8 @@ def ask(api_key, logger=print):
                     max_tokens=(len(prompt) + 150),
                 )
 
-                explanation = response['choices'][0]['text']
-                logger(f"OpenAI explanation: {explanation}")
+                explanation = response['choices'][0]['text'].strip()
+                logger(f"OpenAI explanation:\n{explanation}")
 
                 raise ex
 

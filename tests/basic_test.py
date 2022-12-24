@@ -1,5 +1,6 @@
 import os
 from unittest import TestCase
+
 from ask_openai import ask
 
 import dotenv
