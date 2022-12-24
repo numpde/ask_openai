@@ -10,7 +10,10 @@ Use as follows:
 import os
 from ask_me import ask
 
-@ask(api_key=os.environ['OPENAI_API_KEY'], logger=print)
+ask = ask(api_key=os.environ['OPENAI_API_KEY'], logger=print)
+
+
+@ask
 def f(x):
     return 1 / 0
 ```

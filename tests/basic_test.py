@@ -6,14 +6,15 @@ import dotenv
 
 dotenv.load_dotenv()
 
-api_key = os.environ['MY_OPENAI_API_KEY']
+ask = ask(api_key=os.environ['MY_OPENAI_API_KEY'], logger=print)
 
 
-@ask(api_key)
+@ask
 def foo():
     raise 1 / 0
 
 
 class TestBasic(TestCase):
     def test_basic(self):
-        foo()
+        with self.assertRaises(ZeroDivisionError):
+            foo()
