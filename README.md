@@ -8,7 +8,7 @@ Use as follows:
 
 ```Python
 import os
-from ask_me import ask
+from ask_openai import ask
 
 ask = ask(api_key=os.environ['OPENAI_API_KEY'], logger=print)
 

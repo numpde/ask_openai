@@ -4,7 +4,7 @@ version = "0.1.4"
 description = "Explain exceptions using OpenAI"
 authors = ["RA <numpde@null.net>"]
 readme = "README.md"
-packages = [{include = "ask_me"}]
+packages = [{include = "ask_openai"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
