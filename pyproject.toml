@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ask-me"
+name = "ask-openai"
 version = "0.1.4"
 description = "Explain exceptions using OpenAI"
 authors = ["RA <numpde@null.net>"]
