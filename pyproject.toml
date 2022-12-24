@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ask-me"
 version = "0.1.0"
-description = ""
+description = "Explain exceptions using OpenAI"
 authors = ["RA <numpde@null.net>"]
 readme = "README.md"
 packages = [{include = "ask_me"}]
