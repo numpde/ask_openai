@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "ask-openai"
-version = "0.1.4"
+version = "0.1.5"
 description = "Explain exceptions using OpenAI"
 authors = ["RA <numpde@null.net>"]
 readme = "README.md"
 packages = [{ include = "ask_openai" }]
+homepage = "https://github.com/numpde/ask_me"
+repository = "https://github.com/numpde/ask_me"
 
 [tool.poetry.dependencies]
 python = "^3.7"

@@ -1,4 +1,4 @@
-This package provides a single minimal implementation
+This package `ask_openai` provides a single minimal implementation
 of a function decorator `ask`.
 
 If the decorated function raises an error,
