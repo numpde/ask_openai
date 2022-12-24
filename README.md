@@ -2,7 +2,7 @@ This package `ask_openai` provides a single minimal implementation
 of a function decorator `ask`.
 
 If the decorated function raises an error,
-the decorator asks OpenAI to explain it to you.
+the decorator asks OpenAI / GPT-3 to explain it to you.
 
 Use as follows:
 
