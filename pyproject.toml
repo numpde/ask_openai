@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ask-openai"
-version = "0.1.6"
+version = "0.1.7"
 description = "Explain exceptions using OpenAI / GPT-3"
 authors = ["RA <numpde@null.net>"]
 readme = "README.md"
