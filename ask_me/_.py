@@ -9,7 +9,7 @@ def ask(api_key, logger=print):
             try:
                 f(*a, **kw)
             except Exception as ex:
-                prompt = f"CODE:\n\n{code}\n\nERROR:\n\n{ex}\n\nConcise explanation:\n\n"
+                prompt = f"CODE:\n\n{code}\n\nERROR:\n\n{ex}\n\nVery concise explanation:\n\n"
 
                 response = openai.Completion.create(
                     model='text-davinci-003',
