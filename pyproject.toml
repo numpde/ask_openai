@@ -5,8 +5,8 @@ description = "Explain exceptions using OpenAI / GPT-3"
 authors = ["RA <numpde@null.net>"]
 readme = "README.md"
 packages = [{ include = "ask_openai" }]
-homepage = "https://github.com/numpde/ask_me"
-repository = "https://github.com/numpde/ask_me"
+homepage = "https://github.com/numpde/ask_openai"
+repository = "https://github.com/numpde/ask_openai"
 
 [tool.poetry.dependencies]
 python = "^3.7"
